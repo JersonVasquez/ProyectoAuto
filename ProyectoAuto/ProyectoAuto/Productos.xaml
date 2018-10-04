@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoAuto.Productos">
+    <ContentPage.Content>
+        <ScrollView>
+        <StackLayout Padding="10,12">
+            <Label Text="Catálogo de productos" FontSize="30" HorizontalOptions="Center"></Label>
+            <StackLayout Orientation="Horizontal">
+                <Image Source="Img1.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                <Label x:Name="Nombrepro" Text="Bolsa Sal Refisal x 1000 g" FontSize="20" Margin="10,20,15,5"></Label>
+                    <Label x:Name="Precio1" Text="$2.500" FontSize="15" HorizontalOptions="Center"></Label>
+                </StackLayout>
+            <Entry x:Name="boxNombre2" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+            <Button Text="Comprar" x:Name="btnSave2" Clicked="btnSave_Clicked"></Button>
+            
+            <StackLayout Padding="10,12">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="Img2.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                    <Label Text="Café Descafeinado Colcafé x 50 g." FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio2" Text="$4.500" FontSize="15" Margin="30,20,15,5"></Label>
+
+                    </StackLayout>
+                <Entry x:Name="boxNombre" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave3" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+            
+            <StackLayout Padding="10,12">
+                <StackLayout Orientation="Horizontal">
+                    <Image Source="Img3.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Café Sello Rojo tradicional x 600 g" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio3" Text="$3.200" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                <Entry x:Name="boxNombre4" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                <Button Text="Comprar" x:Name="btnSave4" Clicked="btnSave_Clicked"></Button>
+            </StackLayout>
+
+                <StackLayout Padding="10,12">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Img4.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Arroz Roa x 10kg" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio4" Text="$12.100" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                    <Entry x:Name="boxNombre5" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave5" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="10,12">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Img5.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Avena en hojuelas JBO x300g" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio5" Text="$3.000" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                    <Entry x:Name="boxNombre6" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave6" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="10,12">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Img6.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Avena Quaker Hojuelas Vainilla x 300g" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio6" Text="$7.500" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                    <Entry x:Name="boxNombre7" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave7" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="10,12">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Img7.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Azúcar providencia blanca x 500 g" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio7" Text="$1.500" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                    <Entry x:Name="boxNombre8" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave8" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+
+                <StackLayout Padding="10,12">
+                    <StackLayout Orientation="Horizontal">
+                        <Image Source="Img8.jpg" WidthRequest="100" HeightRequest="100" ></Image>
+                        <Label Text="Banano Urabá x 500 g" FontSize="20" Margin="30,20,15,5"></Label>
+                        <Label x:Name="Precio8" Text="$4.600" FontSize="15" Margin="30,20,15,5"></Label>
+                    </StackLayout>
+                    <Entry x:Name="boxNombre9" Placeholder="Ingresa cantidad a comprar" WidthRequest="20" HeightRequest="40"></Entry>
+                    <Button Text="Comprar" x:Name="btnSave9" Clicked="btnSave_Clicked"></Button>
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+
+           
+        
+
+</ContentPage>

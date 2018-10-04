@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoAuto.Registro">
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                
+                <Image Source="LogoAutoservicios.png"
+                       Aspect="AspectFit"
+                       Margin="10" 
+                       HeightRequest="150" 
+                       WidthRequest="200"
+                       VerticalOptions="Center"
+                       HorizontalOptions="Center"/>
+                <Label Text="REGISTRATE" Font="30" TextColor="Black" HorizontalOptions="Center" FontFamily="algerian"></Label>
+              
+                <Entry Placeholder="Nombre" 
+                   FontSize="20"
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   WidthRequest="180" ></Entry>
+                <Entry Placeholder="Apellido" 
+                   FontSize="20"
+                   
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   WidthRequest="180" ></Entry>
+                <Entry Placeholder="Correo" FontSize="20"
+                   
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   WidthRequest="180"></Entry>
+                <Entry Placeholder="Telefono" FontSize="20"
+                   
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   WidthRequest="180" ></Entry>
+                <Entry Placeholder="Contraseña" FontSize="20"
+                   
+                   TextColor="Black"
+                   HorizontalOptions="CenterAndExpand"
+                   VerticalOptions="Center"
+                   WidthRequest="180" ></Entry>
+                <Button x:Name="btnVer" Text="Registrate" BackgroundColor="#0072BD" TextColor="White" FontSize="18" VerticalOptions="EndAndExpand"></Button>
+                <Button x:Name="Volver" Text="Volver" BackgroundColor="#0072BD" TextColor="White" FontSize="18" VerticalOptions="EndAndExpand"></Button>
+            </StackLayout>
+
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

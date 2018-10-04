@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="ProyectoAuto.Compra">
+    <StackLayout Padding="10,12">
+        <Label Text="Compro" FontSize="30" HorizontalOptions="Center"></Label>
+        <Label Text="{Binding Name}" VerticalOptions="Center" FontSize="35" HorizontalOptions="Center"></Label>
+        <Label Text="Cantidades de nuestros productos" FontSize="25" HorizontalOptions="Center"></Label>
+        <StackLayout Orientation="Horizontal">
+            <Button Text="Volver a Comprar" x:Name="Regresar" HorizontalOptions="EndAndExpand"></Button>
+        </StackLayout>
+    </StackLayout>
+    
+</ContentPage>
